@@ -1,7 +1,9 @@
-export default function Footer(){
+export default function Footer({onOpenModal}){
+
   return(
     <footer>
-      <button>Regras</button>
+      <button onClick={onOpenModal}>Regras</button>
     </footer>
   )
 }
+
