@@ -1,9 +1,8 @@
 export default function Footer({onOpenModal}){
 
   return(
-    <footer>
-      <button onClick={onOpenModal}>Regras</button>
+    <footer className="game-footer">
+      <button className="rules-button" onClick={onOpenModal}>Regras</button>
     </footer>
   )
 }
-
